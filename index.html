@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Kartu Nama</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="h-screen flex items-center justify-center sm:hidden">
+      <h1 class="text-4xl font-bold text-slate-700 text-center">Sorry. Please buy a PC instead.</h1>
+    </div>
+    <div class="hidden h-screen sm:flex items-center justify-center">
+      <div class="relative rounded-lg bg-slate-50 px-10 py-14">
+        <div
+          class="z-10 absolute p-10 left-3 top-5 rounded-full bg-lime-200 shadow-lg shadow-lime-100"
+        ></div>
+        <div
+          class="z-10 absolute p-10 left-10 bottom-5 rounded-full bg-red-200 shadow-lg shadow-red-100"
+        ></div>
+        <div
+          class="z-10 absolute p-10 left-36 top-28 rounded-full bg-orange-200 shadow-lg shadow-orange-100"
+        ></div>
+        <div
+          class="z-10 absolute p-10 right-32 bottom-3 rounded-full bg-teal-200 shadow-lg shadow-teal-100"
+        ></div>
+        <div
+          class="z-10 absolute p-10 right-14 top-3 rounded-full bg-violet-200 shadow-lg shadow-violet-100"
+        ></div>
+        <div class="absolute z-20 backdrop-blur w-full h-full left-0 top-0"></div>
+        <div class="relative z-50 bg-transparent grid grid-cols-2 gap-20">
+          <div class="flex flex-col justify-between">
+            <div>
+              <h1 class="text-4xl font-bold text-slate-600">Logo</h1>
+              <h3 class="text-xl font-semibold text-slate-600">Logo Title</h3>
+            </div>
+            <div>
+              <h3 class="text-2xl font-semibold text-slate-600">Albet Novendo</h3>
+              <p class="text-lg text-slate-700">Backend Engineer</p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-3">
+            <div class="flex bg-white shadow-inner p-2 rounded-full gap-3 items-center">
+              <div class="px-3 py-2 text-lg rounded-full bg-slate-100 shadow-md w-fit">
+                <i class="bx bx-phone text-slate-600"></i>
+              </div>
+              <p class="text-slate-500">+62 829 384 4932</p>
+            </div>
+            <div class="flex bg-white shadow-inner p-2 rounded-full gap-3 items-center">
+              <div class="px-3 py-2 text-lg rounded-full bg-slate-100 w-fit">
+                <i class="bx bx-envelope text-slate-600"></i>
+              </div>
+              <p class="text-slate-500">albet@mail.com</p>
+            </div>
+            <div class="flex bg-white shadow-inner p-2 rounded-full gap-3 items-center">
+              <div class="px-3 py-2 text-lg rounded-full bg-slate-100 w-fit">
+                <i class="bx bx-map-pin text-slate-600"></i>
+              </div>
+              <p class="text-slate-500">Indonesia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
